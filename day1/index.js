@@ -87,8 +87,6 @@ const solution = (args) => {
     return res.ans;
   };
 
-  init(args[0]);
-
   return args.map((word) => {
     return init(word);
   });
